@@ -14,6 +14,15 @@ export const Icons = {
       />
     </svg>
   ),
+  instagram: (props: IconProps) => (
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <title>Instagram</title>
+      <path
+        fill="currentColor"
+        d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.75 18.75c0 .621-.504 1.125-1.125 1.125H6.375c-.621 0-1.125-.504-1.125-1.125V6.375c0-.621.504-1.125 1.125-1.125h11.25c.621 0 1.125.504 1.125 1.125v12.375zM12 7.875c-2.268 0-4.125 1.857-4.125 4.125s1.857 4.125 4.125 4.125S16.125 14.268 16.125 12s-1.857-4.125-4.125-4.125zm6 .375a1.5 1.5 0 11-.001-3A1.5 1.5 0 0118 .75z"
+      />
+    </svg>
+  ),
   x: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>X</title>
